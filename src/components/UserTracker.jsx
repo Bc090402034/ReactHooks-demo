@@ -7,7 +7,7 @@ function UserTracker() {
   // useEffect runs when either `name` or `age` changes
   useEffect(() => {
     console.log(`User updated → Name: ${name}, Age: ${age}`);
-  }, [name, age]); // 👈 depends on both variables
+  }, [name, age]); // depends on both variables
 
   // Separate input handlers
   function handleNameChange(e) {
