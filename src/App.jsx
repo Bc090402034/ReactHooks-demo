@@ -5,6 +5,7 @@ import HideShowComponent from './components/togelcomponent';
 import OddComponent, {EvenComponent} from './components/MyComponentList';
 import UserTracker from './components/UserTracker';
 import SignupForm from './components/SignupForm';
+import UserList2 ,{UserList} from './components/ApiComonent';
 import './App.css'
 
 function App() {
@@ -49,6 +50,13 @@ function App() {
 
     <br /><br />
     <SignupForm  />
+    <br /><br />
+    <UserList />
+
+    <br /><br />
+    <UserList2 />
+
+
 
     </>
   )
