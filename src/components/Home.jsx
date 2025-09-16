@@ -1,8 +1,11 @@
+import MyForm from "./FormManagement";
+
 export function Contact()
 {
     return(
         <div>
             <h1>Contact</h1>
+            <MyForm />
         </div>
     );
 }
